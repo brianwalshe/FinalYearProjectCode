@@ -31,12 +31,12 @@ public class ChestActivity extends AppCompatActivity {
 //            }//end of onClick
 //        });//end of onClickListener
 
-        ChestReturn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ChestActivity.this, WorkoutDiaryActivity.class));
-            }
-        });
+//        ChestReturn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(ChestActivity.this, WorkoutDiaryActivity.class));
+//            }
+//        });
 
         // Create an ArrayAdapter using the string array and a default spinner layout
         // ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.chest_spinner_array, android.R.layout.activity_chest);
@@ -45,4 +45,4 @@ public class ChestActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         // chest_spinner.setAdapter(adapter);
     }
-};
+}

@@ -40,7 +40,7 @@ public class RecordWeightActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weight);
 
-        mDatabase = FirebaseDatabase.getInstance("https://finalyearproject-c4ec8.firebaseio.com/Users").getReference();
+        mDatabase = FirebaseDatabase.getInstance("https://finalyearproject-c4ec8.firebaseio.com/").getReference();
 
 
         editRecordWeight = (EditText) findViewById(R.id.editText_Record_Weight);

@@ -45,7 +45,7 @@
         android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="Sets"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textAlignment="center"
         android:textSize="12sp" />
 
@@ -58,7 +58,7 @@
         android:layout_marginTop="21dp"
         android:ems="10"
         android:hint="Reps"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textAlignment="center"
         android:textSize="12sp" />
 
