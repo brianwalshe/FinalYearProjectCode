@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/abs_spinner"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:layout_weight="1"
+        android:entries="@array/abs_spinner_array"
+        android:hint="Select Exercise"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/txt_abs_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Abs Workout"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/text_abs_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/abs_spinner"
+        android:layout_toStartOf="@+id/editText_abs_sets"
+        android:text="Execise" />
+
+    <EditText
+        android:id="@+id/editText_abs_sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText_abs_reps"
+        android:layout_below="@+id/abs_spinner"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Sets"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText_abs_reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_abs_sets"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Reps"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText_abs_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText_abs_reps"
+        android:layout_below="@+id/editText_abs_reps"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Notes"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_abs_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_abs_notes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Save" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_back_back"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignEnd="@+id/btn_back_save"-->
+    <!--android:layout_below="@+id/btn_back_save"-->
+    <!--android:layout_marginTop="22dp"-->
+    <!--android:text="Back" />-->
+
+</RelativeLayout>

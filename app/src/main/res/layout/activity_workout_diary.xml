@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brian.finalyearproject.WorkoutDiaryActivity">
+
+
+    <TextView
+        android:id="@+id/txt_page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_chest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Please select a category"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_chest"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:layout_marginStart="0dp"-->
+    <!--android:text="Chest"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--tools:layout_editor_absoluteY="220dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_shoulders"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:text="Shoulders"-->
+    <!--tools:layout_editor_absoluteX="141dp"-->
+    <!--tools:layout_editor_absoluteY="220dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_back"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:text="Back"-->
+    <!--tools:layout_editor_absoluteX="141dp"-->
+    <!--tools:layout_editor_absoluteY="220dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_legs"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:text="Legs"-->
+    <!--tools:layout_editor_absoluteX="141dp"-->
+    <!--tools:layout_editor_absoluteY="220dp"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_arms"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:text="Arms"-->
+    <!--tools:layout_editor_absoluteX="141dp"-->
+    <!--tools:layout_editor_absoluteY="220dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_abs"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:text="Abs"-->
+    <!--tools:layout_editor_absoluteX="141dp"-->
+    <!--tools:layout_editor_absoluteY="220dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_core"-->
+    <!--android:layout_width="187dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:text="Core"-->
+    <!--tools:layout_editor_absoluteX="141dp"-->
+    <!--tools:layout_editor_absoluteY="220dp" />-->
+
+
+    <Button
+        android:id="@+id/btn_chest"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btn_shoulders"
+        android:layout_toRightOf="@id/btn_back"
+        android:layout_alignParentStart="true"
+        android:text="Chest"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_shoulders"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btn_abs"
+        android:layout_alignParentStart="true"
+        android:text="Shoulders"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/btn_chest"
+        android:layout_alignParentEnd="true"
+        android:text="Back"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_legs"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btn_arms"
+        android:text="Legs"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_arms"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btn_back"
+        android:text="Arms"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_abs"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btn_core"
+        android:layout_alignParentStart="true"
+        android:text="Abs"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_core"
+        android:layout_width="187dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:text="Core"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_cardio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_core"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btn_legs"
+        android:layout_below="@+id/btn_legs"
+        android:text="Cardio" />
+
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_chest"-->
+    <!--android:layout_width="183dp"-->
+    <!--android:layout_height="70dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:text="Chest"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--tools:layout_editor_absoluteY="58dp" />-->
+
+
+</RelativeLayout>

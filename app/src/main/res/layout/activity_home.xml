@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Welcome" />
+
+    <TextView
+        android:id="@+id/txt_useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtWelcome"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_marginTop="11dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:text="Sign Out" />
+
+    <Button
+        android:id="@+id/btn_record_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_useremail"
+        android:layout_marginTop="78dp"
+        android:layout_toStartOf="@+id/btn_signout"
+        android:text="Record Weight" />
+
+    <Button
+        android:id="@+id/btn_workout_diary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="Workout Archieve" />
+
+    <Button
+        android:id="@+id/btn_Home_Record_Workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_workout_diary"
+        android:layout_alignStart="@+id/btn_workout_diary"
+        android:layout_alignTop="@+id/btn_record_weight"
+        android:text="Record Workout" />
+
+    <Button
+        android:id="@+id/btn_Weight_Diary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_record_weight"
+        android:layout_centerVertical="true"
+        android:text="Weight Archieve" />
+</RelativeLayout>

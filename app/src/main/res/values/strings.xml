@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Final Year Project</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="minimum_password">Password must be more than 6 characters long</string>
+    <string name="auth_failed">Authentication failed. Please enter login details again</string>
+    <string-array name="chest_spinner_array">
+        <item>Flat Dumbbell Chest Press</item>
+        <item>Incline Dumbbell Chest Press</item>
+        <item>Chest Press</item>
+        <item>Incline Chest Press</item>
+    </string-array>
+    <string-array name="back_spinner_array">
+        <item>Single Arm Dumbbell Row</item>
+        <item>Seated Rows</item>
+        <item>Lat Pull-down</item>
+        <item>Straight Arm Pull-down</item>
+        <item>T-bar Row</item>
+    </string-array>
+    <string-array name="shoulders_spinner_array">
+        <item>Shoulder Press</item>
+        <item>Shoulder Dumbell Press</item>
+        <item>Arnold Press</item>
+        <item>Lateral Raises</item>
+        <item>Rear Delt Fly</item>
+    </string-array>
+    <string-array name="arms_spinner_array">
+        <item>Dumbell Curl</item>
+        <item>Barbell Curl</item>
+        <item>Plate Curl</item>
+        <item>Hammer Curl</item>
+        <item>Seated Dip</item>
+        <item>Overhead Tricep Extension</item>
+        <item>Rope Pushdown</item>
+        <item>Lying Tricep Extension</item>
+    </string-array>
+    <string-array name="legs_spinner_array">
+        <item>Bodyweight Squat</item>
+        <item>Bodyweight Lunges</item>
+        <item>Deadlift</item>
+        <item>Bulgarian Split Squat</item>
+        <item>Leg Press</item>
+        <item>Leg Extension Machine</item>
+        <item>Lying Leg Curl</item>
+        <item>Hip Thrust</item>
+    </string-array>
+    <string-array name="cardio_spinner_array">
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Cross Trainer</item>
+        <item>Exercise Bike</item>
+        <item>Rowing Machine</item>
+        <item>Stepper</item>
+    </string-array>
+    <string-array name="abs_spinner_array">
+        <item>Crunch</item>
+        <item>Cable Crunch</item>
+        <item>Plank</item>
+        <item>Side Plank</item>
+        <item>Hanging Knee Raise</item>
+        <item>Hanging Leg Raise</item>
+    </string-array>
+    <string-array name="core_spinner_array">
+        <item>Sit-ups</item>
+        <item>Burpees</item>
+        <item>Mountain Climbers</item>
+        <item>Bycicle Crunch</item>
+        <item>Leg Raises</item>
+    </string-array>
+</resources>

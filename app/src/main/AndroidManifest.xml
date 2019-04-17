@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brian.finalyearproject">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginSignupActivity.LoginActivity"></activity>
+        <activity android:name=".LoginSignupActivity.SignupActivity"></activity>
+        <activity android:name=".RecordWeightActivity"></activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".WorkoutDiaryActivity"></activity>
+        <activity android:name=".WorkoutDiary.ChestActivity"></activity>
+        <activity android:name=".WorkoutDiary.BackActivity"></activity>
+        <activity android:name=".WorkoutDiary.ShoulderActivity"></activity>
+        <activity android:name=".WorkoutDiary.LegsActivity"></activity>
+        <activity android:name=".WorkoutDiary.ArmsActivity"></activity>
+        <activity android:name=".WorkoutDiary.AbsActivity"></activity>
+        <activity android:name=".WorkoutDiary.CoreActivity"></activity>
+        <activity android:name=".WorkoutDiary.CardioActivity"></activity>
+    </application>
+
+</manifest>
