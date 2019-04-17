@@ -1,11 +1,5 @@
 package com.example.brian.finalyearproject.LoginSignupActivity;
 
-/**
- * Created by brian on 11/03/2019.
- */
-
-//public class SignupActivity {
-//}
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -29,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class SignupActivity extends AppCompatActivity {
 
-    private EditText editText_Username_Signup, editText_Password_Signup; //editText_Confirm_Password_Signup;     //hit option + enter if you on mac , for windows hit ctrl + enter
+    private EditText editText_Username_Signup, editText_Password_Signup; //editText_Confirm_Password_Signup;
     private Button btn_Login_Signup, btn_Signup_Signup; //btnResetPassword;
     //private ProgressBar progressBar;
     private FirebaseAuth auth;
@@ -100,13 +94,13 @@ public class SignupActivity extends AppCompatActivity {
                         .addOnCompleteListener(SignupActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                Toast.makeText(SignupActivity.this, "createUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(SignupActivity.this, "createUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
                                 //progressBar.setVisibility(View.GONE);
                                 // If sign in fails, display a message to the user. If sign in succeeds
                                 // the auth state listener will be notified and logic to handle the
                                 // signed in user can be handled in the listener.
                                 if (!task.isSuccessful()) {
-                                    Toast.makeText(SignupActivity.this, "Authentication failed." + task.getException(),
+                                    Toast.makeText(SignupActivity.this, "Authentication failed.",
                                             Toast.LENGTH_SHORT).show();
                                 } else {
                                     startActivity(new Intent(SignupActivity.this, HomeActivity.class));
