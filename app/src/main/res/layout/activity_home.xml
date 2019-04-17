@@ -32,7 +32,7 @@
 
     <Button
         android:id="@+id/btn_record_weight"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_useremail"
         android:layout_marginTop="78dp"
@@ -49,7 +49,7 @@
 
     <Button
         android:id="@+id/btn_Home_Record_Workout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/btn_workout_diary"
         android:layout_alignStart="@+id/btn_workout_diary"
